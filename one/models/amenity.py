@@ -1,13 +1,12 @@
 #!/usr/bin/python3
-"""
-Defines one class, `Amenity(),
-Sub-classes the `BaseModel()` class.`
-"""
+'''This module creates a Amenity class'''
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """An amenity provided by a place/house.
-    """
-    
+    '''Class for managing amenity objects'''
     name = ""
+
+    def __init__(self, *args, **kwargs):
+        '''Initializes attributes for the Amenity class'''
+        super().__init__(*args, **kwargs)

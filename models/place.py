@@ -1,25 +1,20 @@
 #!/usr/bin/python3
-"""Defines one class, `Place()`,
-which sub-classes the `BaseModel()` class.`
-"""
+"""This module creates a Place class"""
+
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
-    """
-    It represents a place/house uploaded
-    by the users of the application.
-    A place/house in the application.
-    """
+    """Class for managing place objects"""
 
-    name = ""
-    user_id = ""
     city_id = ""
+    user_id = ""
+    name = ""
     description = ""
-    number_bathrooms = 0
-    price_by_night = 0
     number_rooms = 0
-    longitude = 0.0
-    latitude = 0.0
+    number_bathrooms = 0
     max_guest = 0
+    price_by_night = 0
+    latitude = 0.0
+    longitude = 0.0
     amenity_ids = []

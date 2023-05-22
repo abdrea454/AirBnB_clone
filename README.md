@@ -169,4 +169,4 @@ The recognizable commands by the interpreter are the following:
 
 ## Author
 
-Abdurohman Nuru : https://github.com/abdrea454
+Abdurohman nuru : https://github.com/abdrea454
